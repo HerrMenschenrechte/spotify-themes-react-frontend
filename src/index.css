@@ -1,7 +1,9 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 14px "proxima-nova, sans-serif, system-ui" ;
   line-height: 1.5;
   font-weight: 400;
+  font-style: normal;
+
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -12,12 +14,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #00B7FF;
   text-decoration: inherit;
+
 }
 a:hover {
   color: #535bf2;
@@ -29,6 +33,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-weight: 100;
 }
 
 h1 {
@@ -67,3 +72,15 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1DB954;
+  color: white;
+  text-align: center;
+}
+
